@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Leather Handbag",
+    "category": "Bags",
+    "image_path": "data/images/leather_handbag.png",
+    "style_tag": "formal",
+    "price": "$149",
+    "description": "Elegant genuine leather handbag with brass hardware and dual handles."
+  },
+  {
+    "id": 2,
+    "name": "Sporty Canvas Backpack",
+    "category": "Bags",
+    "image_path": "data/images/canvas_backpack.png",
+    "style_tag": "sporty",
+    "price": "$59",
+    "description": "Durable water-resistant canvas backpack with convenient front pockets."
+  },
+  {
+    "id": 3,
+    "name": "Aviator Sunglasses",
+    "category": "Sunglasses",
+    "image_path": "data/images/aviator_sunglasses.png",
+    "style_tag": "casual",
+    "price": "$89",
+    "description": "Timeless aviator design with polarized lenses and metallic silver frames."
+  },
+  {
+    "id": 4,
+    "name": "Minimalist White Sneakers",
+    "category": "Shoes",
+    "image_path": "data/images/white_sneakers.png",
+    "style_tag": "casual",
+    "price": "$110",
+    "description": "Clean white low-top sneakers crafted from breathable vegan leather."
+  },
+  {
+    "id": 5,
+    "name": "Classic Brogue Derby Shoes",
+    "category": "Shoes",
+    "image_path": "data/images/brogue_shoes.png",
+    "style_tag": "formal",
+    "price": "$160",
+    "description": "Polished black calfskin leather derby shoes with formal punch-hole detailing."
+  },
+  {
+    "id": 6,
+    "name": "Running Athletic Shoes",
+    "category": "Shoes",
+    "image_path": "data/images/running_shoes.png",
+    "style_tag": "sporty",
+    "price": "$125",
+    "description": "Lightweight mesh trainers with cushioned soles for peak running performance."
+  },
+  {
+    "id": 7,
+    "name": "Sleek Smartwatch",
+    "category": "Accessories",
+    "image_path": "data/images/smartwatch.png",
+    "style_tag": "sporty",
+    "price": "$199",
+    "description": "Fitness tracking smartwatch with a premium black silicon strap."
+  },
+  {
+    "id": 8,
+    "name": "Gold Minimalist Necklace",
+    "category": "Accessories",
+    "image_path": "data/images/gold_necklace.png",
+    "style_tag": "formal",
+    "price": "$75",
+    "description": "Delicate 18k gold chain featuring a clean, polished circular pendant."
+  }
+]
