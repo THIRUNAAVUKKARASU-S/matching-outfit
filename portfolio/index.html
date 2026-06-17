@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirunaavukkarasu S | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Thirunaavukkarasu S, a passionate B.Tech Information Technology student at Dr. N.G.P. Institute of Technology specializing in AI, Machine Learning, and Software Development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" id="logo-link">Thiru<span>.S</span></a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link active" id="nav-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-about">About</a>
+                <a href="#skills" class="nav-link" id="nav-skills">Skills</a>
+                <a href="#projects" class="nav-link" id="nav-projects">Projects</a>
+                <a href="#contact" class="nav-link btn-connect" id="nav-contact">Connect</a>
+            </nav>
+            <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="background-decor">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="welcome-text">Welcome to my space</span>
+                <h1 class="hero-title">Hello, I'm <br><span class="highlight-name">Thirunaavukkarasu S</span></h1>
+                <h2 class="hero-subtitle">
+                    I am a <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Passionate B.Tech Information Technology student with a strong focus on Artificial Intelligence, Machine Learning, and Software Development. I love building smart systems and modern web applications.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary" id="hero-btn-projects">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-body">
+                        <pre><code><span class="keyword">class</span> <span class="classname">Developer</span> {
+  <span class="keyword">constructor</span>() {
+    <span class="variable">this</span>.name = <span class="string">"Thirunaavukkarasu S"</span>;
+    <span class="variable">this</span>.role = <span class="string">"IT Student"</span>;
+    <span class="variable">this</span>.focus = [<span class="string">"AI"</span>, <span class="string">"ML"</span>, <span class="string">"Fullstack"</span>];
+  }
+
+  <span class="function">isPassionate</span>() {
+    <span class="keyword">return</span> <span class="boolean">true</span>;
+  }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" id="about-heading">About Me</h2>
+            <div class="about-grid">
+                <div class="about-info">
+                    <p class="about-text">
+                        I am currently pursuing a **B.Tech in Information Technology** at **Dr. N.G.P. Institute of Technology** in Coimbatore, India. I am highly motivated to explore advanced horizons in technology, specifically in designing machine learning systems and high-fidelity web applications.
+                    </p>
+                    <p class="about-text">
+                        My philosophy is to bridge the gap between artificial intelligence concepts and real-world software applications, creating seamless tools like virtual outfits trials and predicting health indicators with analytics.
+                    </p>
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <h3>B.Tech in Information Technology</h3>
+                            <p>Dr. N.G.P. Institute of Technology, Coimbatore</p>
+                            <span class="edu-timeline">Current Student</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-links-card">
+                    <h3>Direct Channels</h3>
+                    <p>Feel free to look through my public profiles or read my codes:</p>
+                    <div class="profile-links">
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S" target="_blank" class="profile-link-btn github" id="about-github-link">
+                            <i class="fa-brands fa-github"></i> GitHub Profile
+                        </a>
+                        <a href="https://www.linkedin.com/in/thirunaavukkarasu-s-64babb290?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="profile-link-btn linkedin" id="about-linkedin-link">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" id="skills-heading">My Skillset</h2>
+            <p class="section-subtitle">Technologies and concepts I actively work with:</p>
+            
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skill-category">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skill-category">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>AI & Machine Learning</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Predictive Systems</span>
+                        <span class="skill-tag">Image Blending Fallback</span>
+                        <span class="skill-tag">Data Preprocessing</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skill-category">
+                    <div class="cat-header">
+                        <i class="fa-solid fa-cubes"></i>
+                        <h3>Frameworks & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Gradio Client</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Pillow (PIL)</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+            <p class="section-subtitle">A collection of academic and personal development codebases.</p>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" id="filter-all">All</button>
+                <button class="filter-btn" data-filter="python-ml" id="filter-python-ml">Python & ML</button>
+                <button class="filter-btn" data-filter="web-js" id="filter-web-js">Web & JS</button>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project 1: Matching Outfit -->
+                <div class="project-card" data-category="python-ml">
+                    <div class="project-icon"><i class="fa-solid fa-shirt"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">Python & AI</span>
+                        <h3>Virtual Try-On & Outfit Studio</h3>
+                        <p>An e-commerce fitting room app integrating HF diffusion inference with a robust Python-based local layout blend fallback and smart accessory recommendations.</p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>Streamlit</span>
+                            <span>PIL</span>
+                            <span>Gradio</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/matching-outfit" target="_blank" class="project-link" id="project-link-tryon">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Heart-ML -->
+                <div class="project-card" data-category="python-ml">
+                    <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">Machine Learning</span>
+                        <h3>Heart Disease Prediction</h3>
+                        <p>A web platform to predict the likelihood of heart disease by analyzing health markers (cholesterol, blood pressure) utilizing regression and classification models.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>ML Models</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/Heart-ML" target="_blank" class="project-link" id="project-link-heart">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: IPL Score Prediction -->
+                <div class="project-card" data-category="web-js">
+                    <div class="project-icon"><i class="fa-solid fa-baseball-bat-ball"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">JavaScript / Web</span>
+                        <h3>IPL Score Predictor</h3>
+                        <p>An interactive client-side scoreboard prediction tool calculating runs, run rates, and probability algorithms dynamically for IPL matches.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/ipl-score-prediction" target="_blank" class="project-link" id="project-link-ipl">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Katomaran -->
+                <div class="project-card" data-category="web-js">
+                    <div class="project-icon"><i class="fa-solid fa-code-branch"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">JavaScript</span>
+                        <h3>Katomaran</h3>
+                        <p>A custom JavaScript codebase experimenting with interactive event handling and dynamic visual outputs.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>DOM API</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/Katomaran" target="_blank" class="project-link" id="project-link-katomaran">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Number Guessing Game -->
+                <div class="project-card" data-category="web-js">
+                    <div class="project-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">JavaScript / Game</span>
+                        <h3>Number Guessing Game</h3>
+                        <p>A fun and educational interactive number-guessing game featuring dynamic feedback and scoreboard tracking.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/Number-Guessing-Game" target="_blank" class="project-link" id="project-link-guess">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Quiz -->
+                <div class="project-card" data-category="web-js">
+                    <div class="project-icon"><i class="fa-solid fa-circle-question"></i></div>
+                    <div class="project-details">
+                        <span class="project-tag">Web / Interactive</span>
+                        <h3>Interactive Quiz Application</h3>
+                        <p>A clean, mobile-responsive quiz board with real-time score updates, instant correctness validation, and question tracking.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/THIRUNAAVUKKARASU-S/Quiz" target="_blank" class="project-link" id="project-link-quiz">
+                            View Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+            <p class="section-subtitle">Let's discuss projects, internships, or collaboration opportunities.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>My Direct Info</h3>
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:thirunaavukkarasu.s.it@gmail.com">thirunaavukkarasu.s.it@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Coimbatore, Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="form-name">Name</label>
+                            <input type="text" id="form-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email</label>
+                            <input type="email" id="form-email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="4" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="form-submit-btn">Send Message</button>
+                    </form>
+                    <div class="form-success-msg" id="form-success-msg">
+                        <i class="fa-solid fa-circle-check"></i> Message sent successfully! I will get back to you soon.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Thirunaavukkarasu S. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/THIRUNAAVUKKARASU-S" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/thirunaavukkarasu-s-64babb290?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
